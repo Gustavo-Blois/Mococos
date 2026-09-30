@@ -1,0 +1,20 @@
+# Zig
+.zig-cache/
+zig-out/
+*.o
+*.o.d
+
+# Disk images / build artifacts
+*.img
+*.iso
+
+# OVMF NVRAM store — mutated by QEMU on every run (`rw=on`), not source
+OVMF/OVMF_VARS*.fd
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
